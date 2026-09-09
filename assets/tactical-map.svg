@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700" fill="none">
+<defs><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" stroke="#b4a7da" stroke-opacity=".13"/></pattern><linearGradient id="floor" x2="1" y2="1"><stop stop-color="#51406b"/><stop offset="1" stop-color="#30273f"/></linearGradient></defs>
+<path fill="url(#grid)" d="M0 0h800v700H0z"/>
+<g transform="translate(400 310) rotate(-30) skewX(30) scale(.86 .75) translate(-360 -280)">
+<path d="M70 110H270V30H560V170H690V480H510V580H250V500H60Z" fill="#1f192b" stroke="#a092bd"/>
+<path d="M70 85H270V5H560V145H690V455H510V555H250V475H60Z" fill="url(#floor)" stroke="#a798c9" stroke-width="2"/>
+<g stroke="#ad9bd0" stroke-width="2"><path d="M105 120h140v115H105zM310 45h205v70H310zM560 200h90v160h-90zM295 420h165v90H295z" fill="#756291"/><path d="M105 120v-35h140v35M310 45V10h205v35M560 200v-35h90v35M295 420v-35h165v35" fill="#9a85b8"/><path d="M105 235V120h140v115M310 115V45h205v70M560 360V200h90v160M295 510v-90h165v90" fill="#68547f"/>
+<path d="M320 205h150v135H320z" fill="#544368"/><path d="M320 205v-55h150v55" fill="#9781b5"/><path d="M320 205v135h150V205" fill="#74608e"/>
+<path d="M95 340h105v70H95zM495 380h85v45h-85z" fill="#8872a6"/></g>
+<path d="M175 290H275V375H505V280H535" stroke="#d3ff8b" stroke-width="5" stroke-dasharray="10 8"/>
+<path d="m535 280-60-50v100z" fill="#d3ff8b" fill-opacity=".17"/>
+<circle cx="175" cy="290" r="15" fill="#d3ff8b"/><circle cx="175" cy="290" r="27" stroke="#d3ff8b"/><circle cx="535" cy="280" r="12" fill="#eee7ff"/><path d="m530 275 10 10m0-10-10 10" stroke="#352941" stroke-width="3"/>
+<path d="M110 270h110M165 245v90" stroke="#d3ff8b" stroke-opacity=".3"/>
+<text x="360" y="300" font-family="monospace" font-size="50" fill="#c4b3db">A</text><text x="590" y="420" font-family="monospace" font-size="25" fill="#c4b3db">B</text>
+</g>
+<g font-family="monospace" font-size="12" letter-spacing="2" fill="#c6badc"><path d="M211 347 110 422H40" stroke="#a091bd"/><text x="40" y="445">YOUR POSITION</text><path d="m565 324 99-79h95" stroke="#a091bd"/><text x="634" y="230">NEW ANGLE</text></g>
+<path d="M30 60V30h30M740 30h30v30M770 640v30h-30M60 670H30v-30" stroke="#b4a7da"/>
+</svg>
